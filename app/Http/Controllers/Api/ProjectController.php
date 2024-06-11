@@ -24,7 +24,7 @@ class ProjectController extends Controller
         if ($project) {
             $data = [
                 'success' => true,
-                'projects' => $project
+                'project' => $project
             ];
         } else {
             $data = [
